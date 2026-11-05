@@ -22,5 +22,7 @@ variable "ssh_public_key_path" {
   default     = "~/.ssh/id_rsa.pub"
 }
 
-
-
+variable "ssh_allowed_cidr" {
+  description = "Your public IP in CIDR format, for example 203.0.113.10/32"
+  type        = string
+}
