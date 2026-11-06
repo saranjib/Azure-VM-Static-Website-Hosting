@@ -7,6 +7,8 @@ Infrastructure is provisioned using Terraform, Apache is installed automatically
 
 ## Architecture
 
+![Architecture](architecture.png)
+
 
 ## Technologies Used
 
