@@ -44,16 +44,6 @@ Infrastructure is provisioned using Terraform, Apache is installed automatically
 
 A static website successfully hosted on an Azure Linux VM and accessible through its public IP address.
 
-## Learning Outcomes
-
-- Infrastructure as Code (IaC).
-- Azure VM provisioning.
-- Linux server administration.
-- Apache configuration.
-- SSH authentication and SCP file transfer.
-- Bash automation.
-- Cloud networking and security.
-
 ## Cleanup
 
 To avoid unnecessary Azure charges:
