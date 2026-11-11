@@ -51,7 +51,11 @@ A static website successfully hosted on an Azure Linux VM and accessible through
 ```
 scp -i Dwonloads/apache-web-vm_key.pem Downloads/index.html azureuser@172.198.168.237:home/azureuser
 ```
-
+ssh your VM and check the file copy the file in `/var/www/html/`.
+```
+- sudo cp index.html /var/www/html/
+- sudo less /var/www/html/index.html
+```
 ## Cleanup
 
 To avoid unnecessary Azure charges:
