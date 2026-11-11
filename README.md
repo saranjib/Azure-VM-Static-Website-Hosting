@@ -46,6 +46,12 @@ Infrastructure is provisioned using Terraform, Apache is installed automatically
 
 A static website successfully hosted on an Azure Linux VM and accessible through its public IP address.
 
+## Local-to-cloud HTML file transfer using SCP
+
+```
+scp -i Dwonloads/apache-web-vm_key.pem Downloads/index.html azureuser@172.198.168.237:home/azureuser
+```
+
 ## Cleanup
 
 To avoid unnecessary Azure charges:
